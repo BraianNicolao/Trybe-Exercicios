@@ -22,3 +22,26 @@ div:hover{
 .brightcolour:hover{
     border: 2px solid #FAEBD7;
 }
+
+.firsth3{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.secondh3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.complementaryh3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+.darkh3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.brighth3{
+    font-family: fantasy;
+}
