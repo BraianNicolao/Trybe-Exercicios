@@ -1,6 +1,9 @@
+/*Primeiro requisito*/
 div:hover{
     border: 2px solid red;
 }
+
+/* Segundo requisito*/
 
 .firtscolor:hover{
     background-color: brown;
@@ -22,29 +25,30 @@ div:hover{
     background-color: lightblue;
 }
 
-.firsth3{
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-.secondh3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*Terceiro requisito*/
+div:nth-of-type(1) > h3 {
+    color: purple;
+  }
   
-}
+  /*Aqui estamos pegando a segunda div e o primeiro h3 e assim por diante nas próximas div */
+  
+  div:nth-of-type(2) > h3 {
+    color: green 
+  }
+  
+  div:nth-of-type(3) > h3 {
+    font-size: 20px;
+  }
+  
+  div:nth-of-type(4) > h3 {
+    font-family: monospace;
+  }
+  
+  div:nth-of-type(5) > h3 {
+    font-style: italic
+  }
 
-.complementaryh3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-}
-
-.darkh3{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.brighth3{
-    font-family: fantasy;
-}
-
+  /*Quarto requisito*/
 div:nth-child(odd) h3{
     font-style: italic;
 }
