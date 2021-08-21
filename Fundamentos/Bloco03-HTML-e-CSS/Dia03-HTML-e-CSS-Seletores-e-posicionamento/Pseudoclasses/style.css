@@ -45,3 +45,7 @@ div:hover{
 .brighth3{
     font-family: fantasy;
 }
+
+div:nth-child(odd) h3{
+    font-style: italic;
+}
