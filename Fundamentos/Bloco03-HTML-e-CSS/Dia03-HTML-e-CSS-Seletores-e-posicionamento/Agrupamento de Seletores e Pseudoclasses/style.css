@@ -5,3 +5,7 @@ h1, p{
 li:hover{
     background-color: green;
 }
+
+.li:active{
+    font-family: 'Times New Roman', Times, serif;
+}
