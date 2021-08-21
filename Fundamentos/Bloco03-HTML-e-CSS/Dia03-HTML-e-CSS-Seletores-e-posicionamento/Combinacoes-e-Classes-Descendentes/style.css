@@ -40,3 +40,29 @@ ul.lista-linguagem :nth-child(-n+3){
 .pink-bg{
     background-color: rosybrown;
 }
+
+/*Bônus*/
+
+.link-importantes li a:hover{
+    font-weight: 700;
+}
+
+.link-importantes li a[href*="stackoverflow"]{
+    color:orange;
+}
+
+.link-importantes li a[href*="w3schools"]{
+    color:green;
+}
+
+.link-importantes li a[href*="mozilla"]{
+    color:black;
+}
+
+.link-importantes li a[href*="devdocs"]{
+    color:yellow;
+}
+
+.link-importantes li a[href*="trybe"]{
+    color:green;
+}
