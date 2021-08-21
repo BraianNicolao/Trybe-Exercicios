@@ -2,7 +2,11 @@ h1, p{
     text-align: center;
 }
 
-li:hover{
+li{
+    list-style: none;
+}
+
+li:hover, li:active{
     background-color: green;
 }
 
