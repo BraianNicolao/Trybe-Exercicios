@@ -3,24 +3,23 @@ div:hover{
 }
 
 .firtscolor:hover{
-    border: 2px solid brown;
+    background-color: brown;
 }
 
 .secondcolor:hover{
-    border: 2px solid green;
+    background-color: green;
 }
 
 .complementarycolor:hover{
-    border: 2px solid;
-    border-color: orange rgba(170, 50, 220, .6);
+    background-color: yellow;
 }
 
 .darkcolor:hover{
-    border: 2px solid black;
+    background-color: grey;
 }
 
 .brightcolour:hover{
-    border: 2px solid #FAEBD7;
+    background-color: lightblue;
 }
 
 .firsth3{
