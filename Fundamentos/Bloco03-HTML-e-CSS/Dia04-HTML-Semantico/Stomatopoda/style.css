@@ -5,12 +5,17 @@
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #AFEEEE;
+    background-color: snow;
 }
 
 /*Header*/
-
+header{
+    height: 120px;
+    background-color: #4682B4;
+    
+}
 h1{
+    color: white;
     text-align: center;
     padding: 10px;
 }
@@ -18,7 +23,7 @@ h1{
     text-align: center;
     letter-spacing:2px;
     padding: 10px;
-    border-bottom: 1px solid white;
+    
     
 }
 
@@ -49,8 +54,31 @@ h1{
     transition: 1s;
 }
 
+h2, h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.name-cientific{
+    text-align: center;
+    text-decoration-line:underline;
+    padding: 15px;
+}
+table{
+    margin: auto;
+    
+}
+
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
 
 
 .stomatopoda-photo{
     max-width: 250px;
 }
+
