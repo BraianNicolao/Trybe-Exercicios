@@ -100,7 +100,7 @@ table, th, td{
 .reference-container{
     height: 100px;
     width: 100%;
-    display: inline-block;
+    
  
 }
 
@@ -116,9 +116,8 @@ table, th, td{
 
 .more-curiosity{
     text-align: center;
-
     padding: 20px;
-
+    
 }
 
 footer{
