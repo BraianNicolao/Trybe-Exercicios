@@ -94,15 +94,19 @@ table, th, td{
 
 .stomatopoda-photo{
     max-width: 250px;
+    
 }
 
 .reference-container{
-    background-color: lightgrey;
     height: 100px;
+    width: 100%;
+    display: inline-block;
+ 
 }
 
 .reference-container li{
     text-align: center;
+    padding-left: 20px;
     list-style: none;
 }
 
@@ -110,4 +114,19 @@ table, th, td{
     text-decoration: none;
 }
 
+.more-curiosity{
+    text-align: center;
 
+    padding: 20px;
+
+}
+
+footer{
+    background-color: #4682B4;
+    height: 50px;
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
