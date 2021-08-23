@@ -89,15 +89,25 @@ table, th, td{
     display: inline-block;
     width: 582px;
     padding:60px;
-    text-align: justify;
-    
-
-    
+    text-align: justify;  
 }
-
-
 
 .stomatopoda-photo{
     max-width: 250px;
 }
+
+.reference-container{
+    background-color: lightgrey;
+    height: 100px;
+}
+
+.reference-container li{
+    text-align: center;
+    list-style: none;
+}
+
+.reference-container a{
+    text-decoration: none;
+}
+
 
