@@ -1,0 +1,15 @@
+h1, p{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover, li:active{
+    background-color: green;
+}
+
+.li:active{
+    font-family: 'Times New Roman', Times, serif;
+}

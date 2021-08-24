@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+/*Header*/
+header{
+    height: 120px;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.nav-bar{
+    text-align: center;
+    letter-spacing:2px;
+    padding: 10px; 
+}
+
+.nav-bar li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.nav-bar li:hover{
+    color: black;
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    color: black;
+    padding: 5px;
+    transition: 1s;
+}
+
+
+h2, h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.linha::after{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 1px;
+    background: black;
+    margin: 0 auto;
+}
+
+.name-cientific{
+    text-align: center;
+    text-decoration-line:underline;
+    padding: 15px;
+}
+table{
+    margin: auto;
+    
+}
+
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.fact-container{
+    height: 230px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.fact-container img{
+    padding: 0px 20px 0px 150px;
+    float: left;  
+}
+
+.fact-container p{
+    display: inline-block;
+    width: 582px;
+    padding:60px;
+    text-align: justify;  
+}
+
+.stomatopoda-photo{
+    max-width: 250px;
+    margin-left: 10% 
+}
+
+.reference-container{
+    height: 100px;
+    width: 100%;
+}
+
+.reference-container li{
+    text-align: center;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.reference-container a{
+    text-decoration: none;
+}
+.more-curiosity p{
+    padding-bottom: 10px;
+}
+.more-curiosity{
+    text-align: center;
+    padding: 20px;
+}
+
+.button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5%;
+    padding-top: 10px;
+}
+
+.button:hover{
+    transition: 1s;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.button a:hover{
+    transition: 0.8s;
+    color: white;
+    padding: 40px 60px;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}

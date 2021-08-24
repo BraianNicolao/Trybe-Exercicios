@@ -1,0 +1,68 @@
+/*Primeiro requisito*/
+ol {
+    background-color: yellow;
+}
+
+ol li:nth-child(even){
+    color: green;
+} 
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+h1, h2, h3{
+    color: red;
+}
+
+/*Segundo requisito*/
+
+h1, h2, h3 em:checked{
+    font-size: 40px;
+    border: 1px black solid
+}
+
+/*Terceiro requisito*/
+
+li{
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+/*Quarto requisto*/
+
+ul.lista-linguagem :nth-child(-n+3){
+    color: royalblue;
+}
+
+.pink-bg{
+    background-color: rosybrown;
+}
+
+/*Bônus*/
+
+.link-importantes li a:hover{
+    font-weight: 700;
+}
+
+.link-importantes li a[href*="stackoverflow"]{
+    color:orange;
+}
+
+.link-importantes li a[href*="w3schools"]{
+    color:green;
+}
+
+.link-importantes li a[href*="mozilla"]{
+    color:black;
+}
+
+.link-importantes li a[href*="devdocs"]{
+    color:yellow;
+}
+
+.link-importantes li a[href*="trybe"]{
+    color:green;
+}

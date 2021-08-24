@@ -1,0 +1,54 @@
+/*Primeiro requisito*/
+div:hover{
+    border: 2px solid red;
+}
+
+/* Segundo requisito*/
+
+.firtscolor:hover{
+    background-color: brown;
+}
+
+.secondcolor:hover{
+    background-color: green;
+}
+
+.complementarycolor:hover{
+    background-color: yellow;
+}
+
+.darkcolor:hover{
+    background-color: grey;
+}
+
+.brightcolour:hover{
+    background-color: lightblue;
+}
+
+/*Terceiro requisito*/
+div:nth-of-type(1) > h3 {
+    color: purple;
+  }
+  
+  /*Aqui estamos pegando a segunda div e o primeiro h3 e assim por diante nas próximas div */
+  
+  div:nth-of-type(2) > h3 {
+    color: green 
+  }
+  
+  div:nth-of-type(3) > h3 {
+    font-size: 20px;
+  }
+  
+  div:nth-of-type(4) > h3 {
+    font-family: monospace;
+  }
+  
+  div:nth-of-type(5) > h3 {
+    font-style: italic
+  }
+
+  /*Quarto requisito*/
+div:nth-child(odd) h3{
+    font-style: italic;
+}
