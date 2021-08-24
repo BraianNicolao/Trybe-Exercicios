@@ -5,15 +5,15 @@
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: snow;
+    background-color: white;
 }
 
 /*Header*/
 header{
     height: 120px;
-    background-color: #4682B4;
-    
+    background-color: black;
 }
+
 h1{
     color: white;
     text-align: center;
@@ -54,9 +54,19 @@ h1{
     transition: 1s;
 }
 
+
 h2, h3{
     text-align: center;
     padding: 10px;
+}
+
+.linha::after{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 1px;
+    background: black;
+    margin: 0 auto;
 }
 
 .name-cientific{
@@ -78,6 +88,9 @@ table, th, td{
 
 .fact-container{
     height: 300px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .fact-container img{
@@ -94,14 +107,12 @@ table, th, td{
 
 .stomatopoda-photo{
     max-width: 250px;
-    
+    margin-left: 10% 
 }
 
 .reference-container{
     height: 100px;
     width: 100%;
-    
- 
 }
 
 .reference-container li{
@@ -117,13 +128,13 @@ table, th, td{
 .more-curiosity{
     text-align: center;
     padding: 20px;
-    
 }
 
 footer{
-    background-color: #4682B4;
+    background-color: black;
     height: 50px;
 }
+
 footer p{
     text-align: center;
     padding-top: 20px;
